@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Appium.WebDriver" Version="4.4.5" />
+    <PackageReference Include="DevExpress.Data" Version="23.1.5" />
+    <PackageReference Include="DevExpress.Reporting.Core" Version="23.1.5" />
+    <PackageReference Include="devexpress.wpf.carousel" Version="23.1.5" />
+    <PackageReference Include="DevExpress.Wpf.Core" Version="23.1.5" />
+    <PackageReference Include="devexpress.wpf.docking" Version="23.1.5" />
+    <PackageReference Include="devexpress.wpf.grid.core" Version="23.1.5" />
+    <PackageReference Include="devexpress.wpf.layoutcontrol" Version="23.1.5" />
+    <PackageReference Include="devexpress.wpf.propertygrid" Version="23.1.5" />
+    <PackageReference Include="Microsoft.PowerBI.Api" Version="4.16.0" />
+  </ItemGroup>
+
+</Project>
